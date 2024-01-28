@@ -14,6 +14,11 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-StarterProject-StarterProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-StarterProject-StarterProjectTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		9B49DE479A2A4443BA71E562 /* SplineSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6D4016635764E13A020CB9D /* SplineSans-Bold.ttf */; };
+		7D9677AFAE0D4276A511249B /* SplineSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E3D587C7A3944194B07DC2FA /* SplineSans-Light.ttf */; };
+		4DFD81791B744021A498FF2E /* SplineSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B7B22A1DD214544BADAE030 /* SplineSans-Medium.ttf */; };
+		859508717B6640D68CC55743 /* SplineSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90A901300AA04F60AB6CFE71 /* SplineSans-Regular.ttf */; };
+		00CD3B6202D0417EB8E40E0B /* SplineSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 032AB329FCB947D2ABCD66D6 /* SplineSans-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +48,13 @@
 		5DCACB8F33CDC322A6C60F78 /* libPods-StarterProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StarterProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = StarterProject/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-StarterProject-StarterProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarterProject-StarterProjectTests.release.xcconfig"; path = "Target Support Files/Pods-StarterProject-StarterProjectTests/Pods-StarterProject-StarterProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		B0875BB22B66BDA60096ADA6 /* hermes.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = hermes.xcframework; path = "Pods/hermes-engine/destroot/Library/Frameworks/universal/hermes.xcframework"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		C6D4016635764E13A020CB9D /* SplineSans-Bold.ttf */ = {isa = PBXFileReference; name = "SplineSans-Bold.ttf"; path = "../src/assets/fonts/SplineSans-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E3D587C7A3944194B07DC2FA /* SplineSans-Light.ttf */ = {isa = PBXFileReference; name = "SplineSans-Light.ttf"; path = "../src/assets/fonts/SplineSans-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1B7B22A1DD214544BADAE030 /* SplineSans-Medium.ttf */ = {isa = PBXFileReference; name = "SplineSans-Medium.ttf"; path = "../src/assets/fonts/SplineSans-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		90A901300AA04F60AB6CFE71 /* SplineSans-Regular.ttf */ = {isa = PBXFileReference; name = "SplineSans-Regular.ttf"; path = "../src/assets/fonts/SplineSans-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		032AB329FCB947D2ABCD66D6 /* SplineSans-SemiBold.ttf */ = {isa = PBXFileReference; name = "SplineSans-SemiBold.ttf"; path = "../src/assets/fonts/SplineSans-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +110,7 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B0875BB22B66BDA60096ADA6 /* hermes.xcframework */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				5DCACB8F33CDC322A6C60F78 /* libPods-StarterProject.a */,
 				19F6CBCC0A4E27FBF8BF4A61 /* libPods-StarterProject-StarterProjectTests.a */,
@@ -122,6 +134,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				222E6440A988451C946313FD /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -147,6 +160,19 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		222E6440A988451C946313FD /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				C6D4016635764E13A020CB9D /* SplineSans-Bold.ttf */,
+				E3D587C7A3944194B07DC2FA /* SplineSans-Light.ttf */,
+				1B7B22A1DD214544BADAE030 /* SplineSans-Medium.ttf */,
+				90A901300AA04F60AB6CFE71 /* SplineSans-Regular.ttf */,
+				032AB329FCB947D2ABCD66D6 /* SplineSans-SemiBold.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -243,6 +269,11 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				9B49DE479A2A4443BA71E562 /* SplineSans-Bold.ttf in Resources */,
+				7D9677AFAE0D4276A511249B /* SplineSans-Light.ttf in Resources */,
+				4DFD81791B744021A498FF2E /* SplineSans-Medium.ttf in Resources */,
+				859508717B6640D68CC55743 /* SplineSans-Regular.ttf in Resources */,
+				00CD3B6202D0417EB8E40E0B /* SplineSans-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -587,7 +618,7 @@
 				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
-				USE_HERMES = true;
+				USE_HERMES = false;
 			};
 			name = Debug;
 		};
@@ -659,7 +690,7 @@
 				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
-				USE_HERMES = true;
+				USE_HERMES = false;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
