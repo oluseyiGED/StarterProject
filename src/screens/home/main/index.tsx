@@ -1,15 +1,12 @@
 /* eslint-disable react-native/no-inline-styles */
-import TestIcon from '@assets/svgs/TestIcon';
-import {Button, SizedBox} from '@components';
-import Text from '@components/text';
-import Block from 'block';
+import {Block, Button, SizedBox, Text} from '@components';
 import React, {FC} from 'react';
 
 export const Home: FC = ({navigation}: any) => {
   return (
     <Block scroll>
       <SizedBox height={50} />
-      <Button icon={<TestIcon />} />
+      <Button iconName="adds" />
       <SizedBox height={50} />
       <Block justifyContent="space-evenly" row>
         <Text>Left Side</Text>

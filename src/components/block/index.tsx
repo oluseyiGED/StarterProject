@@ -38,7 +38,7 @@ interface Props {
   style?: any;
 }
 
-const Block: FC<Props> = ({
+export const Block: FC<Props> = ({
   children,
   style,
   flex = 1,
@@ -142,5 +142,3 @@ const Block: FC<Props> = ({
     </View>
   );
 };
-
-export default Block;

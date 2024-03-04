@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import Block from 'block';
+import Block from '@components/block';
 import React, {FC} from 'react';
 import {Dimensions, StatusBar, Text} from 'react-native';
 import {useAppDispatch} from 'store';

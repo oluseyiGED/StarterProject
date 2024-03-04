@@ -1,6 +1,5 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-
-import Text from '@components/text';
+import {Text} from '@components';
 import {useFocusEffect} from '@react-navigation/native';
 import React, {FC} from 'react';
 import {View} from 'react-native';

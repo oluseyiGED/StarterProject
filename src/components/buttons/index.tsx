@@ -1,6 +1,6 @@
 /* eslint-disable react-native/no-inline-styles */
 // import { SizedBox } from '@components/sized-box';
-import {SizedBox} from '@components';
+import {SizedBox, SvgIcon} from '@components';
 // import {SvgIcon} from '@components/svg-icon';
 import {HDP} from '@helpers';
 import {palette} from '@theme';
@@ -53,9 +53,9 @@ export const Button: FC<Props> = ({
         <View>
           <View
             style={{flexDirection: 'row', alignItems: 'center', gap: HDP(6)}}>
-            {icon && (
+            {iconName && (
               <View style={[style.iconContainer, iconContainerStyle]}>
-                {icon}
+                <SvgIcon name={iconName} size={20} />
                 <SizedBox width={HDP(12)} />
               </View>
             )}

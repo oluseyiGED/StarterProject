@@ -81,6 +81,17 @@
     "react-test-renderer": "18.2.0",
     "typescript": "5.0.4"
   },
+  "jest": {
+    "preset": "react-native",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  },
   "engines": {
     "node": ">=18"
   }

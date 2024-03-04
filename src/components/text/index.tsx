@@ -1,3 +1,4 @@
+import {RF} from '@helpers';
 import {family} from '@theme';
 import React, {FC} from 'react';
 import {Text as RNText, StyleSheet, TextStyle} from 'react-native';
@@ -35,7 +36,7 @@ interface Props {
   style?: any;
 }
 
-const Text: FC<Props> = ({
+export const Text: FC<Props> = ({
   children,
   h1,
   h2,
@@ -69,12 +70,12 @@ const Text: FC<Props> = ({
   ...props
 }) => {
   const textStyle = StyleSheet.flatten([
-    h1 && {fontSize: 38, fontFamily: '800'},
-    h2 && {fontSize: 32, fontFamily: '800'},
-    h3 && {fontSize: 28, fontFamily: '800'},
-    h4 && {fontSize: 24, fontFamily: family.Medium},
-    h5 && {fontSize: 18, fontFamily: family.Medium},
-    p && {fontSize: 14, fontFamily: family.Regular},
+    h1 && {fontSize: RF(38), fontFamily: '800'},
+    h2 && {fontSize: RF(32), fontFamily: '800'},
+    h3 && {fontSize: RF(28), fontFamily: '800'},
+    h4 && {fontSize: RF(24), fontFamily: family.Medium},
+    h5 && {fontSize: RF(18), fontFamily: family.Medium},
+    p && {fontSize: RF(14), fontFamily: family.Regular},
     center && {textAlign: 'center'},
     (align || textAlign) && {textAlign: textAlign || align},
     bold && {fontWeight: '800'},
@@ -103,5 +104,3 @@ const Text: FC<Props> = ({
     </RNText>
   );
 };
-
-export default Text;
